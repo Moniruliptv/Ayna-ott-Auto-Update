@@ -1,0 +1,1529 @@
+{
+    "code": 1,
+    "message": "Success",
+    "content": {
+        "data": [
+            {
+                "id": "1959dec0-6f7b-4adc-9ede-f4d2f111ae3f",
+                "title": "Channels",
+                "type": "channel",
+                "mode": "regular",
+                "image": "https://s3.aynaott.com/storage/30a21b79e0186d0b0f160b18daed24cb",
+                "items": {
+                    "data": [
+                        {
+                            "id": "20714fd4-dc3c-46d6-924f-3038d61f027c",
+                            "title": "Channel I",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/31a012aaae459ceec831726c0bc0c500",
+                            "landscapeImage": "https://s3.aynaott.com/storage/68c52c9fb9a352d9fb76d0b37f9e0b5f",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 1,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "1a2c8ec3-61d5-4355-80e2-fc3c9b178a0d",
+                            "title": "NTV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/3796fc1aca68618c57d39685a2762f94",
+                            "landscapeImage": "https://s3.aynaott.com/storage/3d910c2c38a12dcac67e431b6c94c67e",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 2,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "21e75798-3b6a-4214-9d93-b3fecaa4e700",
+                            "title": "Bangla Vision",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/80d96d4a6b482d387a1a6b36f215c2d4",
+                            "landscapeImage": "https://s3.aynaott.com/storage/3f8b5e4712404093bfcd49c6b1f41424",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 3,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "70e97db9-5a9e-4642-874e-af3d30ba9925",
+                            "title": "RTV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/ec81d49a4356db94d1bf54d0ab3ee504",
+                            "landscapeImage": "https://s3.aynaott.com/storage/4cfffe34c55591387bdf1c837cee7dd4",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 4,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "9046949b-9847-4b5d-96c1-e82b0734444b",
+                            "title": "ATN Bangla",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/85e20cee815e7ee532133ad7ae4ac571",
+                            "landscapeImage": "https://s3.aynaott.com/storage/962d0d4a5f36362f9417f64979eb1039",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 5,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "b3f0df76-15ba-4ede-a7de-bbaaf23a630e",
+                            "title": "ETV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/21bfdd29c834c89ed523ac5eb73f3856",
+                            "landscapeImage": "https://s3.aynaott.com/storage/d5d72ad56e8d50f51d3704851abb2e12",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 6,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "9a94b22f-c4a4-4150-8eb9-129d0ddeb934",
+                            "title": "Maasranga TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/79e9c75994c011fde97748ff39d5ba68",
+                            "landscapeImage": "https://s3.aynaott.com/storage/612de7dc0982d663350a7fe64bc29218",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 7,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "0be12af9-e713-4c65-b4ed-b735793a0418",
+                            "title": "Deepto TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/dafda2a4f06d7f8ed7cc5883c23803d9",
+                            "landscapeImage": "https://s3.aynaott.com/storage/85228c56bbd1089200f161e3cfdfd145",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 8,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "27ec4394-7640-4dab-abf8-6a48893dfdfe",
+                            "title": "Somoy News TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/ba6a7d0b4785ac8d1c5b53ce412f3e6a",
+                            "landscapeImage": "https://s3.aynaott.com/storage/f2b52213c35cf8be5682f98e7acf54b9",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 9,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "fc95d30e-5323-4c12-bb38-7a1e3f04acc2",
+                            "title": "T Sports HD",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/80dd1b2e3f8a679d1ffb4e0de28da68c",
+                            "landscapeImage": "https://s3.aynaott.com/storage/cb18549df461055ae0b69a909a22d973",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 10,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            },
+            {
+                "id": "afe752d3-6814-4a88-8863-582c41487b54",
+                "title": "Sports",
+                "type": "channel",
+                "mode": "regular",
+                "image": "https://s3.aynaott.com/storage/f79a0c6624eb9176e7822e01ad040d0e",
+                "items": {
+                    "data": [
+                        {
+                            "id": "fc95d30e-5323-4c12-bb38-7a1e3f04acc2",
+                            "title": "T Sports HD",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/80dd1b2e3f8a679d1ffb4e0de28da68c",
+                            "landscapeImage": "https://s3.aynaott.com/storage/cb18549df461055ae0b69a909a22d973",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 10,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "a3d48c46-7902-45e2-abf9-0fab60c4d117",
+                            "title": "A sports",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/1c22bca22dc77c03b5ed6349bc773079",
+                            "landscapeImage": "https://s3.aynaott.com/storage/7725d0ec52cd4fcc3d4071035fd409a7",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 83,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "abfabaee-3898-4279-8645-3da5b0232867",
+                            "title": "Willow TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/b301a3fd18fe4f8fb65d592c2ef92a8e",
+                            "landscapeImage": "https://s3.aynaott.com/storage/a8711c36798c5f59415ca14d11c70daa",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 84,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "eacf6c3f-0773-4bc3-a03a-cfee09f10348",
+                            "title": "PTV Sports",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/40d9dea48ceccd9214e91bbd1b9216e7",
+                            "landscapeImage": "https://s3.aynaott.com/storage/4737cfc00112410e36b83ec40ead45dd",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 85,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "1bbda610-2fcb-4dac-ba03-714a2591a8c4",
+                            "title": "FANCODE",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/b6ee7cb1be8529c7b6a707b9b536da79",
+                            "landscapeImage": "https://s3.aynaott.com/storage/514a41b2d77b5ddbe3a8cd628a585030",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 86,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "9c354ad6-3efc-4e4d-9cd8-3584bcc9c315",
+                            "title": "PSN 1 Sports",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/5b2d9adc26c1a109c3e09e1f1fdbc328",
+                            "landscapeImage": "https://s3.aynaott.com/storage/580d033cd90ad6386339a806a9042d80",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 87,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "9e6373ed-e25b-49ef-9a76-35b144535f75",
+                            "title": "PSN 2 Sports ",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/d34b9e99b0d544952cad0c0c1d8db6d1",
+                            "landscapeImage": "https://s3.aynaott.com/storage/c7112cd459843e8e5838947a20fb2d49",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 88,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "02a7f557-a6e7-4254-b9dd-f8c063ba97c5",
+                            "title": "PSN 4 Sports",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/a17b95bfd689a734a24f31f77635f20f",
+                            "landscapeImage": "https://s3.aynaott.com/storage/85b21f3753862788ce14901a52fc517b",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 89,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "0790e6bd-458c-4f9d-86d9-1c554383b623",
+                            "title": "PSN 5 Sports",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/57f780ab34b3f6719debbe41a30c43af",
+                            "landscapeImage": "https://s3.aynaott.com/storage/9869e2a0f3cd1be2f386df44f3da9b53",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 90,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "a51ed57c-a9cb-4dcb-9160-eb0726835c45",
+                            "title": "Dubai Sports 1",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/2fd6679e67f514163c7fe102a5723deb",
+                            "landscapeImage": "https://s3.aynaott.com/storage/a9d95644d0a3fcbb28285727bd424451",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 91,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            },
+            {
+                "id": "83cdb1e0-4005-49bb-86fd-e38eae4c6e0e",
+                "title": "Sports Record",
+                "type": "video",
+                "mode": "regular",
+                "items": {
+                    "data": [
+                        {
+                            "id": "55266ced-5094-472f-8a18-8dc74d76ae9f",
+                            "title": "AramBug VS PWD 20-10-2025",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/4ded316bbeb6835ce48ac1eb3010e8d5",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/edb6bb8898031d63c2b519e59b77aed4",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "f593abd0-6805-439a-bb78-0b9e01ac4b18",
+                            "title": "Highlights Abahani Ltd Dhaka Vs Fakirerpool Young Mens Club",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/71e12feca76d3113d97b6882d721bb17",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/f74ab7ca541f1cd61f29f8ce2c6949e3",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "33423690-90c3-40e5-84f4-5dd2d8a15374",
+                            "title": "Highlights Rahmatganj MFS Vs Brothers Union Ltd",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/6b25129047c7768dfe56bd0ecb3404b4",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/356f1493bd07408723e701a8b22251c4",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 3,
+                    "from": 1,
+                    "to": 3,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 1
+                }
+            },
+            {
+                "id": "56da34ed-7848-411a-aca9-df501e06566b",
+                "title": "Bangla Drama",
+                "type": "video",
+                "mode": "regular",
+                "items": {
+                    "data": [
+                        {
+                            "id": "5a098245-a69a-4a07-a11e-ad7964f39f7c",
+                            "title": "Neel Chata",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/6528c1a2dbbc72ac47266f5e76a2ddac",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/0fb6d89a60274e05ccd5b08967aa3e18",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "99e40131-2d0f-466d-9503-4a5215957e75",
+                            "title": "Paglu",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/d32621bec8a29dbedf475f99d8801ac2",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/87100b6b6cdf3950f2a9dfd2ed7a805f",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "e2ea0a9f-555c-4215-8a3a-e2b9b874ea70",
+                            "title": "Sweet Crush",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/33ad50e2257482b9d4a319edfabdaced",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/a4a13e8231135d0c20a393fd2e16ef8d",
+                            "purchased": true,
+                            "status": "available",
+                            "watched": {
+                                "position": 110796,
+                                "duration": 2642299,
+                                "updatedAt": "2025-11-20T17:18:22.396Z"
+                            },
+                            "favorite": false
+                        },
+                        {
+                            "id": "4d302f3c-f4cb-4563-b89f-515023b7fa44",
+                            "title": "Redio Joinal",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/d12cedaf6996d8243e08addf64261d0a",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/9ab91c0d75c61fa5aae344d2ab0484f9",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "ff66b821-2e59-41e8-a25c-2ebcff3694d3",
+                            "title": "Tel",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/ef6028f68f7a34208be3357ce10a1ee7",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/6f8a13d391e9d6a4877f289c51df688f",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "fc26fe4c-cb72-40bc-a14f-ea5fd3d875bd",
+                            "title": "Boro Bhai",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/b9f11ce1edf9aa9a96fe0e4d54368d39",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/53d53f52efd5222f8cbf34d0a3c73e9e",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "ed80a139-0344-4db5-bdf0-f5c2aa206efc",
+                            "title": "Agle Rekho Valobasai",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/045ac3f51f6533f36f9ba142efa6c933",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/29a1a049bf95623ebacd5f46ea97dca6",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "cabbe0ed-e707-43f6-9ff7-8aa87ebef5b6",
+                            "title": "Keu Ekjon Tumi",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/103bbb4a13d99bcdceffc9f1f46a8ee2",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/bbebaa021730e740bc468e9468bc02f1",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "6694a6db-8d82-4e2b-82b4-22d4d14f0336",
+                            "title": "Songshar Amar Valo Lage Na",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/3b008b3bd911caaa212c9fd13e8a334f",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/5bf4deccf6ec3be077424ebca6e98cb5",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "2065c38f-dc25-4c23-a058-cd6dc95bc2cd",
+                            "title": "Injection Motin",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/fc84b2cf9a4ec34b650636a77b51138f",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/8732def5abf3b0fa6e9b251dbc135e23",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            },
+            {
+                "id": "1beac7c2-69ca-4aa6-958a-4a7a7b3e4bfb",
+                "title": "Sara Bangla News",
+                "type": "video",
+                "mode": "regular",
+                "items": {
+                    "data": [
+                        {
+                            "id": "4dc5a51b-448e-471d-8b09-90d350780435",
+                            "title": "১০০ তম টেস্টে সেঞ্চুরি, ইতিহাসে 'অমরত্ব' পেলেন মুশফিক",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/5b515749e40b8b394230ded512529b7b",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/7a0415d1cc2d50a34c4df4ad99bfb5cf",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "b775f786-0917-46b6-be90-536ec4a46b72",
+                            "title": "বিশ্বের আলোচিত স্বৈরশাসকদের ভাগ্যে কি ঘটেছিল?",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/31ec1cffb34c23f2005ee033fb31711b",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/a1f5d6e0191a135cbfd23149173d078d",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "089414fd-0e1d-4ce2-b244-c1f2c7c8bd00",
+                            "title": "রেকর্ড ভোটে এগিয়ে মিথিলা - মিস ইউনিভার্স জিতবে কি মিথিলা",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/17dff2f8b43571ccaf6ee390f9f3a3ef",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/c8903dab96353276778f0981ac186caa",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "c63a0915-a0f0-4399-bde1-8ccb6bb4204e",
+                            "title": "জন্মদিনে স্ত্রী-কন্যার ছবি শেয়ার: আরো যে বার্তা দিলেন দেশ নিয়ে",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/ecdcba8b6556f0c8be30d51e23db587b",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/5edc17902cb8bde977286e05daf2ab3c",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "c842ef12-cf10-4dae-80c4-3c326b9dbd4f",
+                            "title": "তারেক রহমান: রাজনীতির পথচলা ও ফেরার প্রত্যাশা",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/bfe3c90aba0dc8c12b30bf43623e4503",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/69d3f4908b89aac6695a365f60a50811",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "093ef655-dc26-4885-aade-097a6a51b595",
+                            "title": "যে সব খাবারে বাড়ে স্ট্রোক ও হৃদরোগের ঝুঁকি - প্রক্রিয়াজাত খাবারের ফাঁদ",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/4f0f40c3293debb26db4c0ebe0724358",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/28348076077a7d9d7a19e8c8edce061f",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "2cd54adc-7e20-412e-8609-27702185c0d2",
+                            "title": "সৌন্দর্যের মঞ্চে হোঁচট—তবু উঠে দাঁড়ানোই আসল জয়ের গল্প",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/9c9a3f4c07de47e57f8f95afbd4f7ff8",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/3525e8c1df188441eae3573e027834b7",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "ac6c84fc-d39e-4ea0-b7b4-ead385973526",
+                            "title": "রণবীর–সারা অর্জুনের রসায়নে তোলপাড়, মুক্তি পেল ‘ধুরন্ধর’ ট্রেলার",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/90fe9d1351314aa45e8b9a8fc1cd2b4e",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/20150c1c29d11248e4c124b470254766",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "6abd1039-1bf9-43be-be2c-abb64bfb40a7",
+                            "title": "পাকিস্তানের আকাশ সীমা বন্ধ: কত কোটি টাকার লোকসান এয়ার ইন্ডিয়ার!",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/a997425a9fcf737a5248d547a614c55e",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/23c5543199c343dbe81467cbbe06d839",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "f6fd33fb-7f9c-4eb1-b595-61ad67396a9c",
+                            "title": "ইসরায়েলি হামলায় হাজারো ফিলিস্তিনি আহত, চিকিৎসা বাধাগ্রস্ত, মানবিক বিপর্যয় বাড়ছে",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/3643b9f8203c79bb82f67c7a680be45c",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/71af3cb76c462029bd163c4ed95ec609",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            },
+            {
+                "id": "fb2cdf88-9143-4bba-aa8b-2d2591136d84",
+                "title": "Latest",
+                "type": "video",
+                "mode": "latest",
+                "items": {
+                    "data": [
+                        {
+                            "id": "4dc5a51b-448e-471d-8b09-90d350780435",
+                            "title": "১০০ তম টেস্টে সেঞ্চুরি, ইতিহাসে 'অমরত্ব' পেলেন মুশফিক",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/5b515749e40b8b394230ded512529b7b",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/7a0415d1cc2d50a34c4df4ad99bfb5cf",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "b775f786-0917-46b6-be90-536ec4a46b72",
+                            "title": "বিশ্বের আলোচিত স্বৈরশাসকদের ভাগ্যে কি ঘটেছিল?",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/31ec1cffb34c23f2005ee033fb31711b",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/a1f5d6e0191a135cbfd23149173d078d",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "089414fd-0e1d-4ce2-b244-c1f2c7c8bd00",
+                            "title": "রেকর্ড ভোটে এগিয়ে মিথিলা - মিস ইউনিভার্স জিতবে কি মিথিলা",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/17dff2f8b43571ccaf6ee390f9f3a3ef",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/c8903dab96353276778f0981ac186caa",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "c63a0915-a0f0-4399-bde1-8ccb6bb4204e",
+                            "title": "জন্মদিনে স্ত্রী-কন্যার ছবি শেয়ার: আরো যে বার্তা দিলেন দেশ নিয়ে",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/ecdcba8b6556f0c8be30d51e23db587b",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/5edc17902cb8bde977286e05daf2ab3c",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "c842ef12-cf10-4dae-80c4-3c326b9dbd4f",
+                            "title": "তারেক রহমান: রাজনীতির পথচলা ও ফেরার প্রত্যাশা",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/bfe3c90aba0dc8c12b30bf43623e4503",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/69d3f4908b89aac6695a365f60a50811",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "093ef655-dc26-4885-aade-097a6a51b595",
+                            "title": "যে সব খাবারে বাড়ে স্ট্রোক ও হৃদরোগের ঝুঁকি - প্রক্রিয়াজাত খাবারের ফাঁদ",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/4f0f40c3293debb26db4c0ebe0724358",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/28348076077a7d9d7a19e8c8edce061f",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "2cd54adc-7e20-412e-8609-27702185c0d2",
+                            "title": "সৌন্দর্যের মঞ্চে হোঁচট—তবু উঠে দাঁড়ানোই আসল জয়ের গল্প",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/9c9a3f4c07de47e57f8f95afbd4f7ff8",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/3525e8c1df188441eae3573e027834b7",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "ac6c84fc-d39e-4ea0-b7b4-ead385973526",
+                            "title": "রণবীর–সারা অর্জুনের রসায়নে তোলপাড়, মুক্তি পেল ‘ধুরন্ধর’ ট্রেলার",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/90fe9d1351314aa45e8b9a8fc1cd2b4e",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/20150c1c29d11248e4c124b470254766",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "6abd1039-1bf9-43be-be2c-abb64bfb40a7",
+                            "title": "পাকিস্তানের আকাশ সীমা বন্ধ: কত কোটি টাকার লোকসান এয়ার ইন্ডিয়ার!",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/a997425a9fcf737a5248d547a614c55e",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/23c5543199c343dbe81467cbbe06d839",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "f6fd33fb-7f9c-4eb1-b595-61ad67396a9c",
+                            "title": "ইসরায়েলি হামলায় হাজারো ফিলিস্তিনি আহত, চিকিৎসা বাধাগ্রস্ত, মানবিক বিপর্যয় বাড়ছে",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/3643b9f8203c79bb82f67c7a680be45c",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/71af3cb76c462029bd163c4ed95ec609",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            },
+            {
+                "id": "cd2a1590-1530-4819-9c8f-018736a65de6",
+                "title": "Bangla Series",
+                "type": "series",
+                "mode": "regular",
+                "items": {
+                    "data": [
+                        {
+                            "id": "3b2d22c2-19cf-4f2a-bca0-da83228b93b9",
+                            "title": "Chandra Karigor",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/0c2338ba58af3dcd2443a748c9538765",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/ccab563eb5e8e660e15591e42dbb4f4f",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "5799b84d-37df-44cd-b98f-188647a954e8",
+                            "title": "Megh Boleche Jabo Jabo",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/91b42b59e7d182aa1f0c46f024492380",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/7d9db83cf41b11ce81538e219611b9b6",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "f3b767a9-d288-4b08-bb49-93348814c5b6",
+                            "title": "Swapnochura",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/3efc8127264a58d3fe60ee5c27885112",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/467cce29b49ee2418ad28369828c8c19",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "dceab1cc-ebd0-4715-97dd-93d3778db909",
+                            "title": "Bari Bari Shari Shari",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/2a6d9f2d0ddc1918c362e4989620712b",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/03b44bf97e5edbb1dc783796e4100fba",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "2a5e87e7-9715-4976-a50f-c4a47a89e325",
+                            "title": "Jodi Thake Nosibe",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/f4480d8398e05f968715a9d65d3ee821",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/dccf8835dc3431d0d66b8fe7fd667c47",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "be743bc7-2958-46dc-9648-bb615638a350",
+                            "title": "T-Rexer Sondhane",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/a4837d3b09c300e4a87e91b5325ad5a7",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/9299516d79343d6561ba7db8f5a83bcc",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "b092b1b7-121b-4273-82c8-d873052e588a",
+                            "title": "Mohanogor",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/5d949556b00201f6b3003d1f197d71a9",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/459a43cfc42973558b3703349638fcdb",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "0b890418-1cb6-45e2-b7ab-0d7650d2e8ce",
+                            "title": "Shewla",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/fb0baf7f80025a01944cb0387894afdc",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/c1757c941abf4223203e3254ee2e5031",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "c6e3144b-6c8f-4a23-838f-d4eba8044788",
+                            "title": "Shorno Kutir",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/89106a1923772341345843803adebd59",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/e3f2eedd82c984bd087b44902178a69e",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "a7aca291-5a3e-4553-98a1-3eeab4db9be3",
+                            "title": "Shonkho Bash",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/6eefdd68b40a637aba9d51d745653092",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/fc8b184a39df868c8238c672e8f5d508",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            },
+            {
+                "id": "5398a778-1f77-44ed-98fe-8882f0d9e1f9",
+                "title": "Latest Shows",
+                "type": "show",
+                "mode": "latest",
+                "items": {
+                    "data": [
+                        {
+                            "id": "7d8fe9d0-221c-4280-8169-e1dfade9a1ea",
+                            "title": "Kobitar Shathe",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/fcb6dc74dbc92692cfc3a957fb929d4f",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/969082529460af86026f20e67da59cc0",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "afe58614-1bcb-407a-a186-cfbe67f0472d",
+                            "title": "Kathopokothon - কথোপকথন",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/b42223843c5bfa36ea95ecd36a613d7a",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/9bc0ef0b6bd40678ab94f8586def180a",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "aacf0e16-45e6-4532-ab67-f1ac77d37d60",
+                            "title": "Tarunnya Kotha",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/a2edf4c171b7ed8f33fd62a579997e5a",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/9b195a4f152ca21ed608a8ec013446d8",
+                            "purchased": false,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 3,
+                    "from": 1,
+                    "to": 3,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 1
+                }
+            },
+            {
+                "id": "36ee27a2-07ea-41b6-8c3f-636ac96e750a",
+                "title": "Kids",
+                "type": "channel",
+                "mode": "regular",
+                "items": {
+                    "data": [
+                        {
+                            "id": "e73ffada-f80a-4c23-9bd8-76142e41c389",
+                            "title": "Cartoon Network",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/53b61525cccd385419ef395273f66077",
+                            "landscapeImage": "https://s3.aynaott.com/storage/155c2ebb4783470ab823fe515b298262",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 162,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "a9791899-66f2-4b94-9521-c333498f7ab9",
+                            "title": "Disney JR",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/8783ac8c37192c21051405ea2dc57ffa",
+                            "landscapeImage": "https://s3.aynaott.com/storage/4baaceeccb0888dc351c151ce7e3f8a9",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 163,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "3830c379-539b-4e18-9943-9664574c850b",
+                            "title": "Nicktoons",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/54038789ddbd8064f15d6a4e6ca739bc",
+                            "landscapeImage": "https://s3.aynaott.com/storage/e3c0c70d1f4555b9ff4596bb93c071ab",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 164,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "c197b1bc-8909-4176-a50f-f855a4a51c1f",
+                            "title": "Nickjr",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/4ff26fcdc9c7fdebcd79d61893271f69",
+                            "landscapeImage": "https://s3.aynaott.com/storage/f808cd563516b0b5f7ca6cfdd73210a3",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 165,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "6aa7469a-89a8-4c46-a141-90fe1fff7893",
+                            "title": "Discovery Family",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/cc5c22684a2a1240fe16b2ead4860266",
+                            "landscapeImage": "https://s3.aynaott.com/storage/a57a151d170a0bce760f013b5ea83e91",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 166,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "1d7ad29d-ee4d-4590-a446-7db6d6aea230",
+                            "title": "Disney Channel",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/898189ff2d087385fe477d11c42f074d",
+                            "landscapeImage": "https://s3.aynaott.com/storage/8110e1ff9ea9122d6b8883a5772ddb61",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 167,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "1f6fd722-dea2-4463-8938-81e6bdc94189",
+                            "title": "Disney XD",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/144f5523cb650d5ba1292fe359e44827",
+                            "landscapeImage": "https://s3.aynaott.com/storage/a2ead5dfee3662d4592a566168393f9f",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 168,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "d188a20a-8640-4511-a228-3a141c675629",
+                            "title": "Family JR",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/9f850ff5ffb7550b3a2d405ac3550b45",
+                            "landscapeImage": "https://s3.aynaott.com/storage/551ec79a765ab7903d7f512d68a6db18",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 169,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "d8c19a31-9752-40cd-a392-fb95928a66b8",
+                            "title": "Nickelodeon",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/a8b950eae7ab35ccca74c4e734dba711",
+                            "landscapeImage": "https://s3.aynaott.com/storage/0a6d780c998d557afe2759d8e8de6111",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 170,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "319225e9-8bd9-4848-a93b-fd5737809b0c",
+                            "title": "Teen Nick",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/fd4831d7998b1c98e7a8eba26fb3ed0b",
+                            "landscapeImage": "https://s3.aynaott.com/storage/7146fce26cfe6f3f5d6e47332e74a98b",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 171,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            },
+            {
+                "id": "f567d6f7-48bd-4a0c-b813-98e266bba8db",
+                "title": "News",
+                "type": "channel",
+                "mode": "regular",
+                "image": "https://s3.aynaott.com/storage/ee12ec7f77d4a94c25ee9e0ab253ea35",
+                "items": {
+                    "data": [
+                        {
+                            "id": "8a1ff003-7cd5-4d75-8245-fa8aa3cdc6aa",
+                            "title": "Jamuna TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/7cf2b06797fbf033a81f5d253fd6adcb",
+                            "landscapeImage": "https://s3.aynaott.com/storage/c1bacc0045d8a64a717c61326d675c29",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 13,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "c6cbbb28-702d-4788-a59d-569decd67367",
+                            "title": "BTV News",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/0dce6e96e9fc03cee4ca88b3d6f07d87",
+                            "landscapeImage": "https://s3.aynaott.com/storage/92cde9462ab77cd0262029908c66c38e",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 36,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "27ec4394-7640-4dab-abf8-6a48893dfdfe",
+                            "title": "Somoy News TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/ba6a7d0b4785ac8d1c5b53ce412f3e6a",
+                            "landscapeImage": "https://s3.aynaott.com/storage/f2b52213c35cf8be5682f98e7acf54b9",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 9,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "1a7a1365-ae2c-470f-9fb2-25c6e83bb108",
+                            "title": "Ekattor TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/269524291fc8adec3dc85ae1ab4ca0ad",
+                            "landscapeImage": "https://s3.aynaott.com/storage/380f510c38ab59a80bc10ca805e4dfb7",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 12,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "2b1a4340-2557-4d57-b77c-657bb30ce0c8",
+                            "title": "News 24 BD",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/9b4249404931f8d4ec18da78326748a8",
+                            "landscapeImage": "https://s3.aynaott.com/storage/9cb96a0b4c860bc8a41492fff7f5b969",
+                            "available": true,
+                            "timeShiftLength": 604800,
+                            "npvrAvailable": false,
+                            "epgDuration": 604800,
+                            "keyCode": 14,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "89247cb9-3c3e-465c-bbc7-d444b0d65424",
+                            "title": "Channel 24",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/3e766841707f8a394d34393f7830c9c4",
+                            "landscapeImage": "https://s3.aynaott.com/storage/d5efcc4c27ba218153047731eed4ee2a",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 15,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "0875f2c8-2043-499b-9472-2872412a6340",
+                            "title": "DBC News",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/bd294eb45333642d627ce136d9cade93",
+                            "landscapeImage": "https://s3.aynaott.com/storage/6ea9f1eccd66971abcca6e22631f107e",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 16,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "22f28ae5-8c15-4904-b9f6-70bbd94cbc43",
+                            "title": "Independent TV",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/dc5a9964ef9d475ff86f609684e127a2",
+                            "landscapeImage": "https://s3.aynaott.com/storage/86b60739cf69894cc92019e7d65eb050",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 18,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "0268cee6-b897-415e-97bc-116c0f799fc2",
+                            "title": "BBC News",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/ab84823b03609da4885c26fb645c4b7d",
+                            "landscapeImage": "https://s3.aynaott.com/storage/a836776a3bb3afba54c05d609d6bc07c",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 257,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "2be13775-7176-4b90-98d7-04c90ffe3b5a",
+                            "title": "CNN",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/0521549301e454e6ae3ed76221c78bae",
+                            "landscapeImage": "https://s3.aynaott.com/storage/056e808e80764d51643a875769807c78",
+                            "available": true,
+                            "timeShiftLength": 0,
+                            "npvrAvailable": false,
+                            "epgDuration": 86400,
+                            "keyCode": 258,
+                            "planIds": [
+                                "b7e1310f-4f47-4800-aa0b-a01f9956100a",
+                                "8118aff4-7fb0-4bd2-bd71-4a95427beb65",
+                                "322cc1d7-296b-4d3e-938e-1f70752d3f9a"
+                            ],
+                            "connectionStatus": true,
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        }
+                    ],
+                    "total": 11,
+                    "from": 1,
+                    "to": 10,
+                    "per_page": 10,
+                    "current_page": 1,
+                    "last_page": 2
+                }
+            }
+        ],
+        "total": 11,
+        "from": 1,
+        "to": 10,
+        "per_page": 10,
+        "current_page": 1,
+        "last_page": 2
+    },
+    "execTime": 50
+}
