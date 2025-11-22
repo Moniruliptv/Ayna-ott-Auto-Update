@@ -514,6 +514,17 @@
                 "items": {
                     "data": [
                         {
+                            "id": "a168579b-ab40-4edb-ab4c-e339017c6158",
+                            "title": "Mister Mobarok",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/4b833b0817d6a1448fc2e5c49f5fdfae",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/e227bcbaf5394d533b40937f6ab76a3a",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
                             "id": "5a098245-a69a-4a07-a11e-ad7964f39f7c",
                             "title": "Neel Chata",
                             "ageLimit": 0,
@@ -614,17 +625,6 @@
                             "available": true,
                             "landscapeImage": "https://s3.aynaott.com/storage/5bf4deccf6ec3be077424ebca6e98cb5",
                             "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "2065c38f-dc25-4c23-a058-cd6dc95bc2cd",
-                            "title": "Injection Motin",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/fc84b2cf9a4ec34b650636a77b51138f",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/8732def5abf3b0fa6e9b251dbc135e23",
-                            "purchased": true,
                             "status": "available",
                             "favorite": false
                         }
@@ -771,111 +771,111 @@
                 "items": {
                     "data": [
                         {
+                            "id": "2134589d-01a4-496d-acb4-8f74269fa426",
+                            "title": "Talvar",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/eef404f42cdf9eb6cdb60c5f1407d2c7",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/ebf97bfced378908f25cbb152742842a",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "513e8623-eb0a-4fb5-8961-dfbcc8eb4599",
+                            "title": "The Lunchbox",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/522b23dc504098a70071c1ded8723745",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/c6fdf5bb702143c80be70e86bf0581a6",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "024181d0-508c-4513-9522-385c18ce59b3",
+                            "title": "Zeher",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/e8c12e11415e494c05a1fbbefee569a4",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/367653b6d766ae2fbf64420dcada2797",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "e8fcce01-fdaa-45d9-a728-98d9f8847d0b",
+                            "title": "The Scapegoat",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/d757b9531dfd6b01ce3481ce16c6c5e0",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/2927f8f56255cb3fbb9837b7371b0ba6",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "eed16dca-d5e5-4941-8e33-1f80874cc588",
+                            "title": "The Seasoning House",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/3ba5558647fb85dea6570dc64aea4210",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/e736e3ef6339b67f8404eca79d9c8f92",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "eec63cc0-4737-4b80-b703-0b08cba20b43",
+                            "title": "The Seven Year Hitch",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/c465a4ac1404807b72a9d245741d48c0",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/9734cf4e6384ca37c6929b9feb23fc46",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "4d76ea8c-eb1c-4da4-866e-1a4403461137",
+                            "title": "The Sweeney",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/db2a73e5dcce5a8267315cabc241bb96",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/92a90d0148c61857426f4da93f4128a3",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "fba496e3-05ab-4f13-93e8-a194f95b3d9a",
+                            "title": "The Tall Man",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/e014738f2c45c02eb92f1d0ee3d9ff97",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/c66fcc882ab7cdf8d8ae85b0a90246bb",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
+                            "id": "a168579b-ab40-4edb-ab4c-e339017c6158",
+                            "title": "Mister Mobarok",
+                            "ageLimit": 0,
+                            "image": "https://s3.aynaott.com/storage/4b833b0817d6a1448fc2e5c49f5fdfae",
+                            "available": true,
+                            "landscapeImage": "https://s3.aynaott.com/storage/e227bcbaf5394d533b40937f6ab76a3a",
+                            "purchased": true,
+                            "status": "available",
+                            "favorite": false
+                        },
+                        {
                             "id": "4dc5a51b-448e-471d-8b09-90d350780435",
                             "title": "১০০ তম টেস্টে সেঞ্চুরি, ইতিহাসে 'অমরত্ব' পেলেন মুশফিক",
                             "ageLimit": 0,
                             "image": "https://s3.aynaott.com/storage/5b515749e40b8b394230ded512529b7b",
                             "available": true,
                             "landscapeImage": "https://s3.aynaott.com/storage/7a0415d1cc2d50a34c4df4ad99bfb5cf",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "b775f786-0917-46b6-be90-536ec4a46b72",
-                            "title": "বিশ্বের আলোচিত স্বৈরশাসকদের ভাগ্যে কি ঘটেছিল?",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/31ec1cffb34c23f2005ee033fb31711b",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/a1f5d6e0191a135cbfd23149173d078d",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "089414fd-0e1d-4ce2-b244-c1f2c7c8bd00",
-                            "title": "রেকর্ড ভোটে এগিয়ে মিথিলা - মিস ইউনিভার্স জিতবে কি মিথিলা",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/17dff2f8b43571ccaf6ee390f9f3a3ef",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/c8903dab96353276778f0981ac186caa",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "c63a0915-a0f0-4399-bde1-8ccb6bb4204e",
-                            "title": "জন্মদিনে স্ত্রী-কন্যার ছবি শেয়ার: আরো যে বার্তা দিলেন দেশ নিয়ে",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/ecdcba8b6556f0c8be30d51e23db587b",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/5edc17902cb8bde977286e05daf2ab3c",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "c842ef12-cf10-4dae-80c4-3c326b9dbd4f",
-                            "title": "তারেক রহমান: রাজনীতির পথচলা ও ফেরার প্রত্যাশা",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/bfe3c90aba0dc8c12b30bf43623e4503",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/69d3f4908b89aac6695a365f60a50811",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "093ef655-dc26-4885-aade-097a6a51b595",
-                            "title": "যে সব খাবারে বাড়ে স্ট্রোক ও হৃদরোগের ঝুঁকি - প্রক্রিয়াজাত খাবারের ফাঁদ",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/4f0f40c3293debb26db4c0ebe0724358",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/28348076077a7d9d7a19e8c8edce061f",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "2cd54adc-7e20-412e-8609-27702185c0d2",
-                            "title": "সৌন্দর্যের মঞ্চে হোঁচট—তবু উঠে দাঁড়ানোই আসল জয়ের গল্প",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/9c9a3f4c07de47e57f8f95afbd4f7ff8",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/3525e8c1df188441eae3573e027834b7",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "ac6c84fc-d39e-4ea0-b7b4-ead385973526",
-                            "title": "রণবীর–সারা অর্জুনের রসায়নে তোলপাড়, মুক্তি পেল ‘ধুরন্ধর’ ট্রেলার",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/90fe9d1351314aa45e8b9a8fc1cd2b4e",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/20150c1c29d11248e4c124b470254766",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "6abd1039-1bf9-43be-be2c-abb64bfb40a7",
-                            "title": "পাকিস্তানের আকাশ সীমা বন্ধ: কত কোটি টাকার লোকসান এয়ার ইন্ডিয়ার!",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/a997425a9fcf737a5248d547a614c55e",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/23c5543199c343dbe81467cbbe06d839",
-                            "purchased": false,
-                            "status": "available",
-                            "favorite": false
-                        },
-                        {
-                            "id": "f6fd33fb-7f9c-4eb1-b595-61ad67396a9c",
-                            "title": "ইসরায়েলি হামলায় হাজারো ফিলিস্তিনি আহত, চিকিৎসা বাধাগ্রস্ত, মানবিক বিপর্যয় বাড়ছে",
-                            "ageLimit": 0,
-                            "image": "https://s3.aynaott.com/storage/3643b9f8203c79bb82f67c7a680be45c",
-                            "available": true,
-                            "landscapeImage": "https://s3.aynaott.com/storage/71af3cb76c462029bd163c4ed95ec609",
                             "purchased": false,
                             "status": "available",
                             "favorite": false
@@ -1525,5 +1525,5 @@
         "current_page": 1,
         "last_page": 2
     },
-    "execTime": 50
+    "execTime": 3330
 }
