@@ -31,7 +31,7 @@ jobs:
 
       - name: ▶ Run Script
         run: |
-          python main.py     # এখানে main.py = তোমার script file name
+          python AynaPlayer.py   # main.py → AynaPlayer.py
 
       - name: 📤 Commit & Push AynaOTT.m3u
         run: |
