@@ -45,7 +45,6 @@ def fetch_stream_url(media_id):
         return None
 
 
-
 def load_channels_from_datajson():
     with open("data.json", "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -64,7 +63,6 @@ def load_channels_from_datajson():
             })
 
     return channels
-
 
 
 def generate_m3u():
@@ -91,10 +89,11 @@ def generate_m3u():
             f"{stream_url}\n\n"
         )
 
-    with open("playlist.m3u", "w", encoding="utf-8") as f:
+    # 🔥 HERE UPDATED FILE NAME
+    with open("AynaOTT.m3u", "w", encoding="utf-8") as f:
         f.write(m3u)
 
-    print("✅ playlist.m3u generated!")
+    print("✅ AynaOTT.m3u generated!")
 
 
 if __name__ == "__main__":
