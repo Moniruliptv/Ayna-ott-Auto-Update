@@ -19,11 +19,11 @@ def fetch_api_and_save():
         if response.status_code == 200:
             data = response.json()
 
-            # JSON ফাইলে লেখা
-            with open("data.json", "w", encoding="utf-8") as f:
+            # JSON ফাইলের নাম পরিবর্তন করে Ayna_id.json করা হয়েছে
+            with open("Ayna_id.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
 
-            print("✅ data.json ফাইল তৈরি হয়ে গেছে!")
+            print("✅ Ayna_id.json ফাইল তৈরি হয়ে গেছে!")
         else:
             print("❌ Error:", response.status_code, response.text)
 
