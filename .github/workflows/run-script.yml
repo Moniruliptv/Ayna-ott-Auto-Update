@@ -2,7 +2,7 @@ name: 🔁 Auto Fetch API & Build JSON
 
 on:
   schedule:
-    - cron: "*/30 * * * *"      # প্রতি ৩০ মিনিটে রানের উদাহরণ
+    - cron: "*/30 * * * *"      # প্রতি ৩০ মিনিটে রান
   workflow_dispatch:            # ম্যানুয়ালি চালানোর অপশন
 
 jobs:
@@ -33,10 +33,10 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add data.json
+          git add Ayna_id.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Updated data.json from API"
+            git commit -m "Updated Ayna_id.json from API"
             git push
           fi
