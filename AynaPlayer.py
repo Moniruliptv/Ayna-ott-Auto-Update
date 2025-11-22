@@ -45,8 +45,8 @@ def fetch_stream_url(media_id):
         return None
 
 
-def load_channels_from_datajson():
-    with open("data.json", "r", encoding="utf-8") as f:
+def load_channels_from_json():
+    with open("Ayna_id.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     channels = []
@@ -66,7 +66,7 @@ def load_channels_from_datajson():
 
 
 def generate_m3u():
-    channels = load_channels_from_datajson()
+    channels = load_channels_from_json()
 
     print(f"🔎 Total channels found: {len(channels)}")
 
@@ -89,7 +89,6 @@ def generate_m3u():
             f"{stream_url}\n\n"
         )
 
-    # 🔥 HERE UPDATED FILE NAME
     with open("AynaOTT.m3u", "w", encoding="utf-8") as f:
         f.write(m3u)
 
