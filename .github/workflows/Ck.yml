@@ -1,0 +1,40 @@
+name: 🔁 Auto Generate AynaOTT Playlist
+
+on: schedule: - cron: "*/30 * * * *"  # Runs every 30 minutes workflow_dispatch:        # Manual trigger
+
+permissions: contents: write
+
+jobs: update: runs-on: ubuntu-latest
+
+steps:
+  - name: 📦 Checkout Repository
+    uses: actions/checkout@v4
+
+  - name: 🐍 Setup Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: "3.x"
+
+  - name: 📁 Install Dependencies
+    run: |
+      python -m pip install --upgrade pip
+      pip install requests
+
+  - name: 🔑 Set AynaOTT Token
+    env:
+      AYNA_TOKEN: ${{ secrets.AYNA_TOKEN }}
+    run: echo "Token Loaded"
+
+  - name: ▶ Run Script
+    env:
+      AYNA_TOKEN: ${{ secrets.AYNA_TOKEN }}
+    run: |
+      python main.py
+
+  - name: 💾 Commit & Push Updated playlist.m3u
+    run: |
+      git config user.email "github-actions@github.com"
+      git config user.name "GitHub Actions"
+      git add playlist.m3u
+      git commit -m "Auto Update playlist.m3u" || echo "No changes to commit"
+      git push
