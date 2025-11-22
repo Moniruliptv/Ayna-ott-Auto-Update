@@ -27,7 +27,7 @@ jobs:
       - name: ▶️ Run Python Script
         env:
           AYNA_TOKEN: ${{ secrets.AYNA_TOKEN }}
-        run: python3 main.py
+        run: python3 ayna_category.py   # ← updated
 
       - name: 💾 Commit JSON file
         run: |
