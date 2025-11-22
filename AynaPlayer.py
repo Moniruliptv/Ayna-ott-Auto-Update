@@ -26,6 +26,8 @@ BASE_HEADERS = {
     "x-user-id": "78be6644-0a65-48ec-81a4-089ac65a2619"
 }
 
+
+# Fetch Single Stream URL
 def fetch_stream_url(media_id):
     HEADERS = BASE_HEADERS.copy()
     HEADERS["authorization"] = f"Bearer {os.getenv('AYNA_TOKEN')}"
@@ -37,42 +39,37 @@ def fetch_stream_url(media_id):
         print("❌ Error for:", media_id)
         return None
 
-    data = r.json()
-
     try:
+        data = r.json()
         return data["content"][0]["src"]["url"]
     except:
         return None
 
 
+# Load Channels (simple array JSON)
 def load_channels_from_json():
     with open("Ayna_id.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     channels = []
 
-    for cat in data["content"]["data"]:
-        if "items" not in cat:
-            continue
-
-        for ch in cat["items"]["data"]:
-            channels.append({
-                "id": ch["id"],
-                "title": ch["title"],
-                "logo": ch["image"]
-            })
+    for ch in data:
+        channels.append({
+            "id": ch["id"],
+            "title": ch["title"],
+            "logo": ch["image"]
+        })
 
     return channels
 
 
+# Generate M3U Playlist
 def generate_m3u():
     channels = load_channels_from_json()
 
     print(f"🔎 Total channels found: {len(channels)}")
 
     m3u = "#EXTM3U\n\n"
-
-    os.makedirs("streams", exist_ok=True)
 
     for ch in channels:
         print("➡ Fetching:", ch["title"])
@@ -83,9 +80,10 @@ def generate_m3u():
             print("⚠ Skip:", ch["title"])
             continue
 
+        # Category = Ayna
         m3u += (
             f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" '
-            f'group-title="Live",{ch["title"]}\n'
+            f'group-title="Ayna",{ch["title"]}\n'
             f"{stream_url}\n\n"
         )
 
