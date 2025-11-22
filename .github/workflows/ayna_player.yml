@@ -1,0 +1,42 @@
+name: 🔁 Auto Generate AynaOTT.m3u
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # প্রতি 30 মিনিটে রান
+  workflow_dispatch:          # ম্যানুয়ালি রান করা যাবে
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 📥 Install Dependencies
+        run: |
+          pip install requests
+
+      - name: 🔑 Set Environment Token
+        run: |
+          echo "AYNA_TOKEN=${{ secrets.AYNA_TOKEN }}" >> $GITHUB_ENV
+
+      - name: ▶ Run Script
+        run: |
+          python main.py     # এখানে main.py = তোমার script file name
+
+      - name: 📤 Commit & Push AynaOTT.m3u
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add AynaOTT.m3u
+          git commit -m "Auto update AynaOTT.m3u"
+          git push
