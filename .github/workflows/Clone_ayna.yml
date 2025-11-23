@@ -1,12 +1,12 @@
-name: 🔁 Copy AynaOTT.m3u from Private Repo to Public Repo
+name: 🔁 Auto Sync AynaOTT.m3u from Private Repo
 
 on:
   schedule:
-    - cron: "*/20 * * * *"     # প্রতি 20 মিনিটে রান করবে
-  workflow_dispatch:            # ম্যানুয়ালি রান করার অপশন
+    - cron: "*/10 * * * *"       # প্রতি 10 মিনিটে রান করবে
+  workflow_dispatch:              # ম্যানুয়ালি রান করা যাবে
 
 jobs:
-  copy-file:
+  sync-file:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,11 +20,17 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: private_repo
 
-      - name: 📄 Copy AynaOTT.m3u
+      - name: 📄 Copy AynaOTT.m3u from Private Repo
         run: |
-          cp private_repo/AynaOTT.m3u ./AynaOTT.m3u
+          if [ -f private_repo/AynaOTT.m3u ]; then
+            cp -f private_repo/AynaOTT.m3u AynaOTT.m3u
+            echo "File copied successfully."
+          else
+            echo "❌ AynaOTT.m3u NOT FOUND in Private Repo!"
+            exit 1
+          fi
 
-      - name: 📝 Commit & Push updated file
+      - name: 📝 Commit & Push to Public Repo
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -32,8 +38,9 @@ jobs:
           git add AynaOTT.m3u
 
           if git diff --cached --quiet; then
-            echo "No changes — skipping commit."
+            echo "⚠️ No changes found — skipping commit."
           else
-            git commit -m "Auto-update: Copied AynaOTT.m3u from private repo"
+            git commit -m "Auto-update: Synced latest AynaOTT.m3u from private repo"
             git push
+            echo "✅ Changes pushed successfully."
           fi
