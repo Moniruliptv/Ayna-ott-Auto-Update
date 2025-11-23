@@ -1,0 +1,524 @@
+{
+  "code": 1,
+  "message": "Success",
+  "content": {
+    "data": [
+      {
+        "id": "442d91ee-46f3-4dc7-bbde-05f6775e9e6f",
+        "title": "Fox 5",
+        "image": "https://s3.aynaott.com/storage/370dc21419097cf868199e814d788f74",
+        "category": "Entertainment"
+      },
+      {
+        "id": "6be81470-eb86-4df1-9726-a95396a293d0",
+        "title": "Fox business",
+        "image": "https://s3.aynaott.com/storage/f90340f20a87debe121740f01099c374",
+        "category": "Business"
+      },
+      {
+        "id": "06aecebc-0e41-4117-b069-d36dff730869",
+        "title": "Afroturk TV",
+        "image": "https://s3.aynaott.com/storage/421dbdf73c78be40ee02c36ce88c7ca9",
+        "category": "International"
+      },
+      {
+        "id": "369ffecf-00a9-49a9-864d-a8f45c7ef6db",
+        "title": "NHK World",
+        "image": "https://s3.aynaott.com/storage/251a3480bba83203cb3242cd73586d51",
+        "category": "News"
+      },
+      {
+        "id": "a5e00efc-bb52-4e9f-9726-a256ffbf7397",
+        "title": "AMC TV",
+        "image": "https://s3.aynaott.com/storage/d39738c86c8f69c4fc8782555af2fa71",
+        "category": "Entertainment"
+      },
+      {
+        "id": "6b66f133-9d9b-44c6-870a-8441c8b99fe1",
+        "title": "Wion",
+        "image": "https://s3.aynaott.com/storage/82fe9fefcc8867b8c6b84e7306b5aaf8",
+        "category": "News"
+      },
+      {
+        "id": "f79543b0-41ab-433f-8bfc-53d6bba16399",
+        "title": "Nat Geo TV",
+        "image": "https://s3.aynaott.com/storage/73f4190268fa2f106413da442e9e4278",
+        "category": "Documentary"
+      },
+      {
+        "id": "c106cb9b-69a2-4759-94b6-2822f5155488",
+        "title": "Discovery Turbo",
+        "image": "https://s3.aynaott.com/storage/22094409ed89b4cb359f10320531a2b0",
+        "category": "Documentary"
+      },
+      {
+        "id": "59308a2b-4110-461e-a2b3-ab035527d5a8",
+        "title": "Discovery HD",
+        "image": "https://s3.aynaott.com/storage/d70135203ef5de2e3a8560edd09907e6",
+        "category": "Documentary"
+      },
+      {
+        "id": "7b8ecade-cb1a-485e-b270-d128197ec444",
+        "title": "Discovery Science",
+        "image": "https://s3.aynaott.com/storage/55343a3638459a8a29592a27cfac5af5",
+        "category": "Documentary"
+      },
+      {
+        "id": "fb4c9119-ad73-4e37-8091-b26126d200b9",
+        "title": "Animal Planet HD",
+        "image": "https://s3.aynaott.com/storage/6fcd3d840801b38f1402ea7ba17ba288",
+        "category": "Documentary"
+      },
+      {
+        "id": "1124edfa-0c73-4389-8c8c-988b8ae65460",
+        "title": "HBO",
+        "image": "https://s3.aynaott.com/storage/9b809bb17f0731fd3b584b58a737ff09",
+        "category": "Entertainment"
+      },
+      {
+        "id": "4804c4fb-4d32-4a91-88e2-fa6d0798f6a5",
+        "title": "HBO 2",
+        "image": "https://s3.aynaott.com/storage/ba7e44dd84133ce0f7a41f7e4ad3ebb2",
+        "category": "Entertainment"
+      },
+      {
+        "id": "5b8f4aa1-7073-45c2-8d3d-9309db02d2d7",
+        "title": "EPIX TV",
+        "image": "https://s3.aynaott.com/storage/b11d4c5dbab5d1e9a95592e9682f24d8",
+        "category": "Entertainment"
+      },
+      {
+        "id": "472766de-e0af-4cf3-89b4-31390bbe0942",
+        "title": "HGTV",
+        "image": "https://s3.aynaott.com/storage/eadffa5845a5f421fc5dff3b23ea25fa",
+        "category": "Lifestyle"
+      },
+      {
+        "id": "61b39e9d-7b21-414a-8050-a6d8cf68363b",
+        "title": "Rakuten Movies",
+        "image": "https://s3.aynaott.com/storage/3a1f16e322ca2b3cbf06f6fe69f4f749",
+        "category": "Movies"
+      },
+      {
+        "id": "77aab6ef-59da-4e68-881f-b12ea01df543",
+        "title": "History",
+        "image": "https://s3.aynaott.com/storage/e2c610fe4e4951bd2ffad70fbba6b981",
+        "category": "Documentary"
+      },
+      {
+        "id": "18a1811e-58b0-474a-9dde-00c3f6140749",
+        "title": "CBS TV",
+        "image": "https://s3.aynaott.com/storage/6f82d55d912b66251789198e76638f0a",
+        "category": "Entertainment"
+      },
+      {
+        "id": "f6f1a6ed-4629-4010-b50d-13fa4dd9a575",
+        "title": "USA TV",
+        "image": "https://s3.aynaott.com/storage/233a6c6d9ec75534efc7ed6a73690fc2",
+        "category": "Entertainment"
+      },
+      {
+        "id": "d4175eaa-ec06-43fc-a022-cfd5432e31b9",
+        "title": "FX TV",
+        "image": "https://s3.aynaott.com/storage/2282c3581584bb8dcdf7c6c5621c9332",
+        "category": "Entertainment"
+      },
+      {
+        "id": "a5963ff0-36c4-4a1f-b8ce-5356c890a859",
+        "title": "pix 11",
+        "image": "https://s3.aynaott.com/storage/489985c3acf725161847421f3958f963",
+        "category": "Entertainment"
+      },
+      {
+        "id": "7c972a23-cee8-47f0-b61a-ac15d57002e4",
+        "title": "YTV",
+        "image": "https://s3.aynaott.com/storage/8ecb1648bcb3b74ae105b42d3e186d1a",
+        "category": "Entertainment"
+      },
+      {
+        "id": "edebdbdf-3290-42e7-8cda-cc8584cb1c32",
+        "title": "BRAVO",
+        "image": "https://s3.aynaott.com/storage/982f586256182f12198af60635430f3a",
+        "category": "Entertainment"
+      },
+      {
+        "id": "f3b88c27-c0ed-4a0b-a5fd-05cd9ab80a01",
+        "title": "COOKING TV",
+        "image": "https://s3.aynaott.com/storage/9c5adf8a43a72da2b5d360719eb72d21",
+        "category": "Lifestyle"
+      },
+      {
+        "id": "63db4c23-d199-4be6-90a0-d46742c7d53e",
+        "title": "TLC HD",
+        "image": "https://s3.aynaott.com/storage/fa45b9c7e5dd64e74a8dc29f67662745",
+        "category": "Lifestyle"
+      },
+      {
+        "id": "26689f92-263e-417b-bdc3-fef8f7eb7fa5",
+        "title": "COMEDY CENTRAL",
+        "image": "https://s3.aynaott.com/storage/d39a18dfa6f63abe7f0f81342f3ab645",
+        "category": "Entertainment"
+      },
+      {
+        "id": "98cbc702-3ebe-45bf-be48-0b5bd0957baf",
+        "title": "Food Network",
+        "image": "https://s3.aynaott.com/storage/fa432be6e7f9879f1f65079e9e9481d9",
+        "category": "Lifestyle"
+      },
+      {
+        "id": "02deb7af-2139-41ec-96af-3f805a168021",
+        "title": "LAFF TV",
+        "image": "https://s3.aynaott.com/storage/1b830554f8b421fc833545042c4ce620",
+        "category": "Entertainment"
+      },
+      {
+        "id": "979764c3-92a0-46d0-9408-a3d458fc761e",
+        "title": "SYFY TV",
+        "image": "https://s3.aynaott.com/storage/0b8fcf7f27367baa1f8332769fb1c12c",
+        "category": "Entertainment"
+      },
+      {
+        "id": "fc4dfffa-ceff-404f-bf3b-1de7c6771ae5",
+        "title": "RDS Social TV",
+        "image": "https://s3.aynaott.com/storage/97f61227e8000a3e95c246c33250b435",
+        "category": "Music"
+      },
+      {
+        "id": "525df3f4-ce22-4008-be5d-e25410fd7248",
+        "title": "Dream Turk",
+        "image": "https://s3.aynaott.com/storage/df43f8d92c2df30dd9024685aae92b49",
+        "category": "International"
+      },
+      {
+        "id": "9cf16121-07d4-48c1-9f36-14ee8b7e3f31",
+        "title": "Ekin Turk",
+        "image": "https://s3.aynaott.com/storage/8e744ea9055666e0ffe820039b403b3d",
+        "category": "International"
+      },
+      {
+        "id": "e061189b-415d-4241-b0ab-7077924c6775",
+        "title": "Movie Sphere",
+        "image": "https://s3.aynaott.com/storage/5bc8de81e169facaac538b41e5c7e04a",
+        "category": "Movies"
+      },
+      {
+        "id": "f1acb290-c4c1-4010-8226-3f88b203c79c",
+        "title": "Action Hollywood Movies",
+        "image": "https://s3.aynaott.com/storage/b98923cc7d3b269db10aecba5175a921",
+        "category": "Movies"
+      },
+      {
+        "id": "b32b87d2-828c-48e2-b32c-eec0ed92b1a5",
+        "title": "Travel Channel",
+        "image": "https://s3.aynaott.com/storage/f1c846f53dc902ffa552ade5f7e71cf0",
+        "category": "Travel"
+      },
+      {
+        "id": "22c31d4b-491c-4eca-ac07-e9b1f131f5fd",
+        "title": "Travel XP",
+        "image": "https://s3.aynaott.com/storage/e5531ed7274b9560af3ec65b4cfacdce",
+        "category": "Travel"
+      },
+      {
+        "id": "6587b33e-12f4-4f17-a37c-1a0955457ccb",
+        "title": "Persiana Travel",
+        "image": "https://s3.aynaott.com/storage/73427c0709b32a65a44bc0600807d24a",
+        "category": "Travel"
+      },
+      {
+        "id": "7a0871d0-1a45-430c-b513-3bba8a9cf820",
+        "title": "4k Travel",
+        "image": "https://s3.aynaott.com/storage/5df51ad838aa0969c1e4d55defbe07dc",
+        "category": "Travel"
+      },
+      {
+        "id": "fe98def1-6f32-4ff5-83df-ddc1531e7016",
+        "title": "Cowboy Movie Channel",
+        "image": "https://s3.aynaott.com/storage/f33b3e9031b2996301377f4f078bed8b",
+        "category": "Movies"
+      },
+      {
+        "id": "bdf309a5-d732-45d8-989a-5ad5defd0224",
+        "title": "Power Turk",
+        "image": "https://s3.aynaott.com/storage/5a9cf7b62f41c3e0b64ae220a80e4f9b",
+        "category": "Music"
+      },
+      {
+        "id": "bb4763ad-ff05-4aae-92f0-daa668de5231",
+        "title": "InTravel",
+        "image": "https://s3.aynaott.com/storage/e95ad52305d0c416edcaf8d89ef6576f",
+        "category": "Travel"
+      },
+      {
+        "id": "2f6357b3-11db-4fc3-aa84-ad1d48ee8526",
+        "title": "AXS",
+        "image": "https://s3.aynaott.com/storage/5f4e11ed5c0a675fe0c432cdd3be623b",
+        "category": "Music"
+      },
+      {
+        "id": "8b852c92-0157-4099-8352-b49723129558",
+        "title": "World Muzzik",
+        "image": "https://s3.aynaott.com/storage/586ed4f5d889cb669dbb852c896005eb",
+        "category": "Music"
+      },
+      {
+        "id": "b2598ee7-734c-4265-9d9a-82ec8e1100e9",
+        "title": "World War TV",
+        "image": "https://s3.aynaott.com/storage/e1340fd2f6e20cc4dfb06060fde89eca",
+        "category": "Documentary"
+      },
+      {
+        "id": "25059629-bb42-48d2-bcbc-8aa5c14e7f85",
+        "title": "Persiana Korea",
+        "image": "https://s3.aynaott.com/storage/17c2d5cb909032c6b281229496b919f2",
+        "category": "International"
+      },
+      {
+        "id": "8077a601-7b7f-4e58-88bd-7370c25d7001",
+        "title": "CGTN Docu",
+        "image": "https://s3.aynaott.com/storage/70362f989254aae734d26a298d01e592",
+        "category": "Documentary"
+      },
+      {
+        "id": "b04e24f1-9260-484c-ad3b-4f3f1058b5db",
+        "title": "ASPARK TV",
+        "image": "https://s3.aynaott.com/storage/42327ec7782c0649fe27198b13243485",
+        "category": "Entertainment"
+      },
+      {
+        "id": "307777ec-0dd3-4e09-9835-5fe3844054dd",
+        "title": "Hallmark Movies",
+        "image": "https://s3.aynaott.com/storage/c241536c6f2c5853f1d509673f2a705f",
+        "category": "Movies"
+      },
+      {
+        "id": "acc7957a-b9c4-482a-8639-154bdd7eada1",
+        "title": "WEATHER CHANNEL",
+        "image": "https://s3.aynaott.com/storage/d08d7e8fdf437ec8fe9d3bcb664cd294",
+        "category": "Weather"
+      },
+      {
+        "id": "4e74c2fe-7685-4716-8cfc-ff742280f904",
+        "title": "AccuWeather",
+        "image": "https://s3.aynaott.com/storage/e6b0b63ca114bc668d9b751e92146d78",
+        "category": "Weather"
+      },
+      {
+        "id": "8b15f84b-674b-420e-843a-47c71d0c15e2",
+        "title": "Fox Weather",
+        "image": "https://s3.aynaott.com/storage/c7879032ce19ecb37a2f2519a533914b",
+        "category": "Weather"
+      },
+      {
+        "id": "84600ec5-52b8-45fc-824a-3e3b4f7c9355",
+        "title": "Sky News Weather",
+        "image": "https://s3.aynaott.com/storage/7a88c23b413ce2b4ab85d343ac900327",
+        "category": "Weather"
+      },
+      {
+        "id": "213a56e4-886c-44b1-8d72-2f8b9957376b",
+        "title": "Weather SPY",
+        "image": "https://s3.aynaott.com/storage/55430ea2cf8f872c7d3e511ca9cd323c",
+        "category": "Weather"
+      },
+      {
+        "id": "0158eec7-6eb2-4dac-83ac-78da727c3134",
+        "title": "Discover Pikstan",
+        "image": "https://s3.aynaott.com/storage/df42ac4d94d4c135daf32fd8894def46",
+        "category": "Documentary"
+      },
+      {
+        "id": "f6096a6f-9891-4bfc-98d8-ea20ea1388fe",
+        "title": "Islam TV",
+        "image": "https://s3.aynaott.com/storage/cebd4a31d6ee69fb56ff223071bb4d43",
+        "category": "Religious"
+      },
+      {
+        "id": "596e39ca-a957-4029-bbc6-55e89dc5d4d4",
+        "title": "RTV Islam",
+        "image": "https://s3.aynaott.com/storage/1a1a9ad060ec88d89e9597baf7a57d0d",
+        "category": "Religious"
+      },
+      {
+        "id": "b0684b5d-0e56-4429-8f64-55d8c18fcc1c",
+        "title": "Iqra Bangla",
+        "image": "https://s3.aynaott.com/storage/856337a107c78a6951acec259fe2361b",
+        "category": "Religious"
+      },
+      {
+        "id": "5a6ca809-0fbd-44d5-bcf4-aeb4d4cbd849",
+        "title": "Peace TV",
+        "image": "https://s3.aynaott.com/storage/c91126ff0356afdac432f17bc6a4bb33",
+        "category": "Religious"
+      },
+      {
+        "id": "2eb119c5-7864-421a-a153-8d6b7b372e9b",
+        "title": "TV ONE",
+        "image": "https://s3.aynaott.com/storage/75a863818a215c0a2ab25ba10052ee17",
+        "category": "Religious"
+      },
+      {
+        "id": "d0828e90-a8b9-4d2b-9bf7-ab996578147a",
+        "title": "Peace TV Bangla HD",
+        "image": "https://s3.aynaott.com/storage/8846295002e3d81fefabbaaef888946c",
+        "category": "Religious"
+      },
+      {
+        "id": "dd837351-ae92-4ce1-b5d4-1ceece83accf",
+        "title": "Peace TV Urdu HD",
+        "image": "https://s3.aynaott.com/storage/a3cdc2009884d368f595bf2371dc6017",
+        "category": "Religious"
+      },
+      {
+        "id": "9b1539aa-d73b-4310-8809-d44b37995e6d",
+        "title": "Channel Win",
+        "image": "https://s3.aynaott.com/storage/9ad306f99b09c9f3502b9e44a5319091",
+        "category": "Religious"
+      },
+      {
+        "id": "72e3bc27-72a7-4c93-8953-66218fa7c51d",
+        "title": "Deen TV",
+        "image": "https://s3.aynaott.com/storage/a3be116a0f7f8556c069ee538eed2dac",
+        "category": "Religious"
+      },
+      {
+        "id": "9feb93f4-0ffa-4877-b619-0870644562c4",
+        "title": "Eman Channel",
+        "image": "https://s3.aynaott.com/storage/222e572ecf5ea2a9a9389619f86f6327",
+        "category": "Religious"
+      },
+      {
+        "id": "8846b2aa-7f7f-4d5e-965e-42bed0fdf092",
+        "title": "TAQBEER",
+        "image": "https://s3.aynaott.com/storage/a74ea9e570000b52898ac4fac59e78ec",
+        "category": "Religious"
+      },
+      {
+        "id": "32acaaeb-2b3b-4979-98d9-b45deecde3ec",
+        "title": "MADANI TV",
+        "image": "https://s3.aynaott.com/storage/16f4016ef4d387e425f863c652d29ae1",
+        "category": "Religious"
+      },
+      {
+        "id": "11b82c1f-aeeb-45b3-85b0-0a753604a2bd",
+        "title": "Al-Zahar TV Turkic",
+        "image": "https://s3.aynaott.com/storage/d34704decc7b2ef6649266464c18d5f8",
+        "category": "Religious"
+      },
+      {
+        "id": "140f1e47-362e-4fec-ba69-d766b6b03a32",
+        "title": "NTV Europe",
+        "image": "https://s3.aynaott.com/storage/28957340cb98f9609683dcad43565ffd",
+        "category": "News"
+      },
+      {
+        "id": "50de5fa7-d6a7-48bf-9058-bd7aa1809e56",
+        "title": "Millennium TV",
+        "image": "https://s3.aynaott.com/storage/68c3427b85d28ab63c8ae1c539fac240",
+        "category": "Entertainment"
+      },
+      {
+        "id": "9fe49249-fae7-402d-b5b1-6710691bbcf6",
+        "title": "TIME TV USA",
+        "image": "https://s3.aynaott.com/storage/59d4ea8e9f5943927398e4890993a075",
+        "category": "News"
+      },
+      {
+        "id": "f7f53551-5bcf-4704-9652-18a8b70568ca",
+        "title": "IBTV USA",
+        "image": "https://s3.aynaott.com/storage/184a639be8811e465faa76eefc1437f3",
+        "category": "Entertainment"
+      },
+      {
+        "id": "7ba34de6-f932-440a-9fe4-190679a2d9a0",
+        "title": "VTV USA",
+        "image": "https://s3.aynaott.com/storage/027eab8855caf71da0d234ecdc629a63",
+        "category": "Entertainment"
+      },
+      {
+        "id": "d80aa15f-6487-40de-9bf7-04dd8203d5f4",
+        "title": "Movie Bangla",
+        "image": "https://s3.aynaott.com/storage/9e258f52e8b9c3c5cdafb5461a915468",
+        "category": "Movies"
+      },
+      {
+        "id": "00d97c7a-dda7-410e-9081-8b0e5b51e1f0",
+        "title": "CMAC TV",
+        "image": "https://s3.aynaott.com/storage/e7e8bdd333a9fa57e6b06574876efd58",
+        "category": "Entertainment"
+      },
+      {
+        "id": "c5a46f6e-9112-4043-82ff-e9e79156f8f8",
+        "title": "4 Afganistan",
+        "image": "https://s3.aynaott.com/storage/b15c68cea60d7a5db1a72dc84c90ec99",
+        "category": "International"
+      },
+      {
+        "id": "38b0853b-8333-4387-bd86-8437073a1c49",
+        "title": "Pro Sports International",
+        "image": "https://s3.aynaott.com/storage/8c6ee6654f9ba188935c25b4752824d1",
+        "category": "Sports"
+      },
+      {
+        "id": "54b59c45-9064-4ce6-b6cd-12895b34319d",
+        "title": "Revolt",
+        "image": "https://s3.aynaott.com/storage/3f65c82ae89dc9894e0fdadf21ab9d96",
+        "category": "Music"
+      },
+      {
+        "id": "6db89c8a-a26b-47fe-8643-6f2abd219ab4",
+        "title": "Adventure Earth",
+        "image": "https://s3.aynaott.com/storage/b02bbc844983ec6bb993f66268594bd7",
+        "category": "Documentary"
+      },
+      {
+        "id": "b1a47b97-b4eb-4462-8faa-65f5207a3506",
+        "title": "OAN",
+        "image": "https://s3.aynaott.com/storage/41f93b241c267e5c8441123d338a01d3",
+        "category": "News"
+      },
+      {
+        "id": "7d81cb6f-d9f2-4d87-adf3-84e6fcc65983",
+        "title": "Court TV",
+        "image": "https://s3.aynaott.com/storage/dde8e3f9023b16d6fc2c73ea73c4862b",
+        "category": "News"
+      },
+      {
+        "id": "9b638e91-1eaa-4f60-8d7a-13268a62bd39",
+        "title": "ABN",
+        "image": "https://s3.aynaott.com/storage/b5033b5517bfdb6e954b2475c0b57728",
+        "category": "News"
+      },
+      {
+        "id": "3eadcf2b-f425-4555-b080-5c4ec5224708",
+        "title": "Hadi TV",
+        "image": "https://s3.aynaott.com/storage/0d7976633a35b044d736e57b240a4e97",
+        "category": "Religious"
+      },
+      {
+        "id": "a1c8c162-0892-444b-8e84-0d62b9aa69f6",
+        "title": "TBS",
+        "image": "https://s3.aynaott.com/storage/65316ac99a389a87d5f72255b198770b",
+        "category": "Entertainment"
+      },
+      {
+        "id": "d9b700ff-3282-4654-b872-0b45081f72f3",
+        "title": "Dubai TV",
+        "image": "https://s3.aynaott.com/storage/c106e0444c848b229551f5524e77abfb",
+        "category": "International"
+      },
+      {
+        "id": "9e68af86-7f32-40ba-8d0f-f12276f8e206",
+        "title": "Awaaz India",
+        "image": "https://s3.aynaott.com/storage/8d0a902df51f417c63772d23ea734a0a",
+        "category": "International"
+      },
+      {
+        "id": "409a9d23-2206-4e2a-840c-1702571f3d38",
+        "title": "Iran Press",
+        "image": "https://s3.aynaott.com/storage/173eba7209534d3643be6a57215bfff1",
+        "category": "News"
+      }
+    ]
+  }
+}
