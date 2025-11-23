@@ -56,10 +56,15 @@ def load_single_json(file_name):
 
 
 # -------------------------
-# REMOVE DUPLICATES BY ID
+# LOAD ALL 4 JSON FILES + REMOVE DUPLICATES
 # -------------------------
 def load_all_channels():
-    files = ["Ayna_id.json", "_id_sm.json", "Ayna_id_ok.json"]
+    files = [
+        "Ayna_id.json",
+        "Ayna_id_sm.json",
+        "Ayna_id_ok.json",
+        "ayna_exp.json"
+    ]
 
     unique_channels = {}  # KEY = id
 
@@ -69,7 +74,6 @@ def load_all_channels():
         for ch in data:
             ch_id = ch["id"]
 
-            # Only add if id not already added
             if ch_id not in unique_channels:
                 unique_channels[ch_id] = {
                     "id": ch_id,
