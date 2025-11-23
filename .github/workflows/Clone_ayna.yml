@@ -2,8 +2,8 @@ name: 🔁 Auto Sync AynaOTT.m3u from Private Repo
 
 on:
   schedule:
-    - cron: "*/10 * * * *"       # প্রতি 10 মিনিটে রান করবে
-  workflow_dispatch:              # ম্যানুয়ালি রান করা যাবে
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
 
 jobs:
   sync-file:
@@ -20,27 +20,30 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: private_repo
 
-      - name: 📄 Copy AynaOTT.m3u from Private Repo
+      - name: 📄 Copy AynaOTT.m3u
         run: |
           if [ -f private_repo/AynaOTT.m3u ]; then
             cp -f private_repo/AynaOTT.m3u AynaOTT.m3u
-            echo "File copied successfully."
           else
-            echo "❌ AynaOTT.m3u NOT FOUND in Private Repo!"
+            echo "❌ File not found!"
             exit 1
           fi
 
-      - name: 📝 Commit & Push to Public Repo
+      - name: 📝 Commit & Push updated file
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-
+          
           git add AynaOTT.m3u
 
           if git diff --cached --quiet; then
-            echo "⚠️ No changes found — skipping commit."
-          else
-            git commit -m "Auto-update: Synced latest AynaOTT.m3u from private repo"
-            git push
-            echo "✅ Changes pushed successfully."
+            echo "⚠️ No changes — skipping."
+            exit 0
           fi
+
+          # FIX: avoid push rejection
+          git pull --rebase
+
+          git commit -m "Auto-update: Synced latest AynaOTT.m3u"
+          git push
+          echo "✅ Updated & pushed successfully."
