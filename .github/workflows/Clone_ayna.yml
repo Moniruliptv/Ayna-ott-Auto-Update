@@ -1,8 +1,8 @@
-name: 🔁 Auto Sync AynaOTT.m3u from Private Repo
+name: 🔁 Sync AynaOTT.m3u to Public Repo
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/30 * * * *"   # প্রতি 30 মিনিটে রান হবে
   workflow_dispatch:
 
 jobs:
@@ -10,40 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📦 Checkout PUBLIC Repo
+      - name: Checkout Private Repo
         uses: actions/checkout@v4
 
-      - name: 📥 Checkout PRIVATE Repo
-        uses: actions/checkout@v4
-        with:
-          repository: Moniruliptv/Ayna-ott-Auto-Update
-          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
-          path: private_repo
-
-      - name: 📄 Copy AynaOTT.m3u
+      - name: Configure Git Identity
         run: |
-          if [ -f private_repo/AynaOTT.m3u ]; then
-            cp -f private_repo/AynaOTT.m3u AynaOTT.m3u
-          else
-            echo "❌ File not found!"
-            exit 1
-          fi
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions Bot"
 
-      - name: 📝 Commit & Push updated file
+      - name: Clone Public Repo
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
+          git clone https://x-access-token:${{ secrets.PUBLIC_REPO_TOKEN }}@github.com/Moniruliptv/AynaOTT_Auto_Update_playlist.git public_repo
+
+      - name: Copy AynaOTT.m3u File
+        run: |
+          cp AynaOTT.m3u public_repo/
+
+      - name: Push to Public Repo
+        run: |
+          cd public_repo
           git add AynaOTT.m3u
-
-          if git diff --cached --quiet; then
-            echo "⚠️ No changes — skipping."
-            exit 0
-          fi
-
-          # FIX: avoid push rejection
-          git pull --rebase
-
-          git commit -m "Auto-update: Synced latest AynaOTT.m3u"
+          git commit -m "Auto update AynaOTT.m3u" || echo "No changes"
           git push
-          echo "✅ Updated & pushed successfully."
