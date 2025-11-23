@@ -26,8 +26,6 @@ BASE_HEADERS = {
     "x-user-id": "78be6644-0a65-48ec-81a4-089ac65a2619"
 }
 
-
-# Fetch Single Stream URL
 def fetch_stream_url(media_id):
     HEADERS = BASE_HEADERS.copy()
     HEADERS["authorization"] = f"Bearer {os.getenv('AYNA_TOKEN')}"
@@ -46,28 +44,47 @@ def fetch_stream_url(media_id):
         return None
 
 
-# Load Channels (simple array JSON)
-def load_channels_from_json():
-    with open("Ayna_id.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    channels = []
-
-    for ch in data:
-        channels.append({
-            "id": ch["id"],
-            "title": ch["title"],
-            "logo": ch["image"]
-        })
-
-    return channels
+def load_single_json(file_name):
+    try:
+        with open(file_name, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            print(f"📥 Loaded: {file_name} ({len(data)} channels)")
+            return data
+    except:
+        print(f"⚠ Failed to load: {file_name}")
+        return []
 
 
-# Generate M3U Playlist
+# -------------------------
+# REMOVE DUPLICATES BY ID
+# -------------------------
+def load_all_channels():
+    files = ["Ayna_id.json", "_id_sm.json", "Ayna_id_ok.json"]
+
+    unique_channels = {}  # KEY = id
+
+    for file in files:
+        data = load_single_json(file)
+
+        for ch in data:
+            ch_id = ch["id"]
+
+            # Only add if id not already added
+            if ch_id not in unique_channels:
+                unique_channels[ch_id] = {
+                    "id": ch_id,
+                    "title": ch["title"],
+                    "logo": ch["image"],
+                    "category": ch.get("category")
+                }
+
+    print(f"\n🧹 Duplicate-removed channels: {len(unique_channels)}\n")
+
+    return list(unique_channels.values())
+
+
 def generate_m3u():
-    channels = load_channels_from_json()
-
-    print(f"🔎 Total channels found: {len(channels)}")
+    channels = load_all_channels()
 
     m3u = "#EXTM3U\n\n"
 
@@ -80,17 +97,18 @@ def generate_m3u():
             print("⚠ Skip:", ch["title"])
             continue
 
-        # Category = Ayna
+        category = ch["category"] if ch["category"] else ""
+
         m3u += (
             f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" '
-            f'group-title="Ayna",{ch["title"]}\n'
+            f'group-title="{category}",{ch["title"]}\n'
             f"{stream_url}\n\n"
         )
 
     with open("AynaOTT.m3u", "w", encoding="utf-8") as f:
         f.write(m3u)
 
-    print("✅ AynaOTT.m3u generated!")
+    print("\n✅ AynaOTT.m3u generated!")
 
 
 if __name__ == "__main__":
