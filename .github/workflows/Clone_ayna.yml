@@ -1,0 +1,39 @@
+name: 🔁 Copy AynaOTT.m3u from Private Repo to Public Repo
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"     # প্রতি 20 মিনিটে রান করবে
+  workflow_dispatch:            # ম্যানুয়ালি রান করার অপশন
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout PUBLIC Repo
+        uses: actions/checkout@v4
+
+      - name: 📥 Checkout PRIVATE Repo
+        uses: actions/checkout@v4
+        with:
+          repository: Moniruliptv/Ayna-ott-Auto-Update
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: private_repo
+
+      - name: 📄 Copy AynaOTT.m3u
+        run: |
+          cp private_repo/AynaOTT.m3u ./AynaOTT.m3u
+
+      - name: 📝 Commit & Push updated file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add AynaOTT.m3u
+
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit."
+          else
+            git commit -m "Auto-update: Copied AynaOTT.m3u from private repo"
+            git push
+          fi
