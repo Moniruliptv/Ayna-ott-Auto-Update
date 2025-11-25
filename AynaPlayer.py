@@ -34,7 +34,7 @@ def fetch_stream_url(media_id):
     r = requests.get(url, headers=HEADERS)
 
     if r.status_code != 200:
-        print("❌ Error for:", media_id)
+        print("❌ API Error for:", media_id)
         return None
 
     try:
@@ -42,6 +42,15 @@ def fetch_stream_url(media_id):
         return data["content"][0]["src"]["url"]
     except:
         return None
+
+
+def is_link_alive(url):
+    """ Check if a stream URL returns 200 OK """
+    try:
+        r = requests.head(url, timeout=5)
+        return r.status_code == 200
+    except:
+        return False
 
 
 def load_single_json(file_name):
@@ -55,9 +64,6 @@ def load_single_json(file_name):
         return []
 
 
-# -------------------------
-# LOAD ALL 4 JSON FILES + REMOVE DUPLICATES
-# -------------------------
 def load_all_channels():
     files = [
         "Ayna_id.json",
@@ -66,7 +72,7 @@ def load_all_channels():
         "ayna_exp.json"
     ]
 
-    unique_channels = {}  # KEY = id
+    unique_channels = {}
 
     for file in files:
         data = load_single_json(file)
@@ -90,7 +96,8 @@ def load_all_channels():
 def generate_m3u():
     channels = load_all_channels()
 
-    m3u = "#EXTM3U\n\n"
+    m3u_valid = "#EXTM3U\n\n"
+    m3u_bad = "#EXTM3U\n\n"
 
     for ch in channels:
         print("➡ Fetching:", ch["title"])
@@ -98,21 +105,41 @@ def generate_m3u():
         stream_url = fetch_stream_url(ch["id"])
 
         if not stream_url:
-            print("⚠ Skip:", ch["title"])
+            print(f"❌ No stream URL → BAD: {ch['title']}")
+            m3u_bad += f"#EXTINF:-1,{ch['title']} (NO URL)\n#\n\n"
             continue
 
+        # --------------- CHECK 200 OK ---------------
+        print(f"🔍 Checking stream: {ch['title']}")
+        alive = is_link_alive(stream_url)
+
+        if not alive:
+            print(f"❌ DEAD LINK → {ch['title']}")
+            m3u_bad += (
+                f'#EXTINF:-1 tvg-logo="{ch["logo"]}",{ch["title"]}\n'
+                f"{stream_url}\n\n"
+            )
+            continue
+
+        # --------------- ADD GOOD LINK ---------------
         category = ch["category"] if ch["category"] else ""
 
-        m3u += (
+        m3u_valid += (
             f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" '
             f'group-title="{category}",{ch["title"]}\n'
             f"{stream_url}\n\n"
         )
 
+    # Write valid M3U
     with open("AynaOTT.m3u", "w", encoding="utf-8") as f:
-        f.write(m3u)
+        f.write(m3u_valid)
 
-    print("\n✅ AynaOTT.m3u generated!")
+    # Write bad links
+    with open("bad_links.m3u", "w", encoding="utf-8") as f:
+        f.write(m3u_bad)
+
+    print("\n✅ AynaOTT.m3u (valid links) generated!")
+    print("⚠ bad_links.m3u (dead links) generated!")
 
 
 if __name__ == "__main__":
